@@ -17,7 +17,7 @@ function Movie(props) {
 
         <button
           onClick={() => {
-            props.callbackToDelete(props.movieDetails.id);
+            props.callbackToDelete(props.movieDetails.title);
           }}
         >
           Delete this movie
